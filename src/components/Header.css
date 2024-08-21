@@ -1,18 +1,16 @@
 .container {
   display: flex;
   flex-direction: column;
-  height: 70%;
-  /* Certifique-se de que o contêiner principal tenha uma altura definida */
+  height: 47%;
+ 
 }
 
-.div {
-  padding: 10px;
-}
+
 
 .div1 {
   background-color: #e23e57;
   width: 100%;
-  height: 20%; /* A altura agora será 60% da altura do contêiner pai */
+  height: 80%; 
   display: flex;
   align-items: center;
 }
@@ -20,9 +18,7 @@
 .div2 {
   background-color: #ffffff;
   width: 100%;
-
-  height: 10%; /* A altura agora será 60% da altura do contêiner pai */
-
+  height: 20%; 
   display: flex;
   flex-direction: row;
   align-items: flex-start;
@@ -30,14 +26,16 @@
 
 .Farmacia_popular {
   width: 150px;
+  margin-left: 5%;
 }
 
 .titulo1, .titulo2, .titulo3, .titulo4 {
   width: 90%;
-  height: auto; /* Define a altura como automática, para evitar conflito com o Flexbox */
+  height: auto; 
   display: flex;
   align-items: center;
-  justify-content: center; /* Centraliza o texto dentro das divs */
+  justify-content: center; 
+  margin-top: 1%;
 }
 
 .titulo1 {
@@ -55,13 +53,21 @@
 }
 
 .titulo2:hover, .titulo3:hover, .titulo4:hover {
-  color:  #e6e6e6; /* Cor de texto ao passar o mouse */
-  text-shadow: 0 0 10px #e96a7e; /* Adiciona um brilho ao texto */
+  color:  #e6e6e6; 
+  text-shadow: 0 0 10px #e96a7e; 
 }
 
 .CampoPesquisa {
   display: flex;
   align-items: center;
   justify-content: center;
-  margin-left: 20%;
+  
+}
+
+.logo{
+
+  margin-right: 10%;
+
+
+
 }

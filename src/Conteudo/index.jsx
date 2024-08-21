@@ -15,7 +15,7 @@ function Conteudo() {
             Estamos animados em anunciar que a
             Farmacia popular passou por uma transformação completa! Sob nova direção, nossa farmácia está pronta para oferecer um atendimento renovado e um ambiente moderno.
             Convite para a Inauguração Junte-se a nós na nossa inauguração e conheça nossas novas instalações e serviços!
-            <span className='fonteDois'>Os 10 primeiros clientes que realizarem compras acima de 100 Reais, ganham uma super camiseta</span>
+            <span className='fonteDois'>Os 10 primeiros clientes que realizarem compras acima de 100 Reais, ganham uma super camiseta.</span>
           </p>
         </div>
 
@@ -31,7 +31,7 @@ function Conteudo() {
 
 
         <button onClick={abrirNovaAba} className="fofoca-link">
-          #alert fofoca:clique aqui!
+          #alert fofoca<br></br>clique aqui!
         </button>
       </div>
     </div>
