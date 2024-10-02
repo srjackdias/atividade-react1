@@ -2,6 +2,38 @@ import React from 'react';
 import './index.css';
 
 function Conteudo() {
+
+  const { senhasNormais, setSenhasNormais } = useContext([])
+
+  const [inputTipo, setInputTipo] = useState(0)
+  const [inputSenha, setInputSenha] = useState(0)
+
+
+
+  function GerarSenhasNormais() {
+    let senhaNovaNormal = {
+      id: Date.now(),
+      tipo: "Normal",
+      senha: Math.floor(Math.random() * 10000)
+    }
+
+
+    setSenhas([...senhasNormais, setSenhasNormais])
+
+  }
+
+
+  function GerarSenhasPreferencial() {
+    let senhaNovaNormal = {
+      id: Date.now(),
+      tipo: "Preferencial",
+      senha: Math.floor(Math.random() * 10000)
+    }
+
+
+    setSenhas([...senhasNormais, setSenhasNormais])
+
+  }
   const abrirNovaAba = () => {
     window.open('/fofoca.html');
   };
