@@ -1,0 +1,93 @@
+.senhas-container {
+    display: flex;
+    flex-direction: column; /* Alinha os elementos verticalmente */
+    justify-content: center;
+    align-items: center;
+    background-color: #ef97a4;
+    padding: 110px;
+   
+  }
+
+  .titulos{
+
+  color: #ffffff;;
+  background-color: #ce1f3a;
+  width: 50%;
+  height: 50%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding: 50px;
+  border-radius: 18px;
+  font-size: 40px;
+
+  }
+
+  .FontePagina{
+
+    color: #ffffff;
+    margin: 2rem;
+  }
+  
+  .senhas-DisplaySenha {
+    width: 50%;
+    min-height: 150px; /* Define uma altura mínima para manter o layout estável */
+    display: flex;
+    background-color: white;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 18px;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-bottom: 20px; /* Espaço entre o contêiner e a lista de senhas */
+    padding: 20px;
+    border: solid 5px black;
+  }
+  
+  .bntUm, .bntDois {
+    width: 200px;
+    gap: 20px; /* Espaçamento entre os botões */
+    padding: 10px;
+    cursor: pointer; /* Muda o cursor para pointer ao passar sobre o botão */
+  }
+  
+  .senhaChamadaDisplay {
+    background-color: brown;
+    color: white;
+    padding: 10px;
+    margin-top: 10px; /* Espaçamento entre a senha chamada e a lista */
+    border-radius: 10px;
+  }
+  
+  .bntGerarsenha {
+    background-color: blueviolet;
+    width: 12%; /* Faz a lista ocupar todo o espaço disponível */
+    padding: 10px;
+    list-style-type: none; /* Remove os marcadores da lista */
+    color: white;
+    text-align: center; /* Alinha o texto à esquerda */
+  }
+  
+  .senha-conteudo-Dois {
+    width: 50%;
+    min-height: 150px; /* Define uma altura mínima para a área das senhas */
+    display: flex;
+    justify-content: space-around; /* Mantém os elementos com espaço entre eles */
+    align-items: center;
+    background-color: white;
+    padding: 20px;
+    border-radius: 18px;
+    flex-wrap: wrap;
+    margin-top: 20px;
+
+    border: solid black 5px;
+    
+  }
+  
+  /* .Senha_Conteudo-tres{
+
+    width: 100%;
+    height: 60%;
+    background-color: blue;
+
+  } */

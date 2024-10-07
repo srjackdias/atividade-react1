@@ -1,8 +1,8 @@
 .container {
   display: flex;
   flex-direction: column;
-  height: 47%;
- 
+  height: 100%;
+  margin: 0;
 }
 
 
@@ -10,9 +10,12 @@
 .div1 {
   background-color: #e23e57;
   width: 100%;
-  height: 80%; 
+  height: 90%; 
   display: flex;
   align-items: center;
+  border: solid 7px black;
+  border-radius: 10px;
+
 }
 
 .div2 {
@@ -22,6 +25,8 @@
   display: flex;
   flex-direction: row;
   align-items: flex-start;
+  border: solid 5px black;
+  border-radius: 10px;
 }
 
 .Farmacia_popular {

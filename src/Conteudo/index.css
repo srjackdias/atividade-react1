@@ -1,6 +1,6 @@
 html, body, #root {
-  height: 60%;
-  margin: 0;
+  height: 69%;
+background-color: white;  
 }
 
 .conteudo-container {
@@ -18,30 +18,45 @@ html, body, #root {
 .conteudoUm {
   background-color: #ce1f3a;
   width: 50%; 
-  height: 35%; 
+  height: 70%; 
   display: flex;
   align-items: center;
   justify-content: center;
+  border-radius: 18px;
+  border-top-right-radius: solid 20px black;
+
 }
 
-.conteudoDois {
+.index-conteudoDois {
   background-color: #ce1f3a;
   width: 50%; 
-  height: 30%; 
+  height: 70%; 
   display: flex;
   align-items: flex-end; 
   justify-content: center; 
+  border-top-left-radius: solid 20px black;
+  
 }
 
 .ConteudoTres {
   background-color:#ef97a4;;
   width: 100%;
-  height:35% ;
+  height:90% ;
   display: flex;
-  justify-content: center;
-  align-items: center; 
-  box-sizing: border-box; 
+  justify-content:space-around;
+  align-items: center;
+  flex-direction: row;
+  padding: 140px;
+  border: solid 5px black;
+  border-radius: 18px;
 }
+.navbar{
+
+  padding-left: 100px;
+
+
+}
+
 
 .fonteUm {
   color: #ffffff;
@@ -52,13 +67,13 @@ html, body, #root {
  
   justify-content: center;
   align-items: center;
-  margin-left: 15%;
   flex-direction: column; 
+  padding-left: 100px; 
 }
 
 .fonteDois {
-  color: #ffffff; 
- margin-top: 10%;
+  color: #ffffff;
+  padding-left: 20px; 
 }
 
 .Farmacia_placa {
@@ -79,7 +94,7 @@ html, body, #root {
 
 }
 
-.fofoca-link{
+/* .fofoca-link{
   width: 10%;
   height: 30%;
   border-radius: 31px;
@@ -91,13 +106,13 @@ html, body, #root {
   margin-top: 2%;
   
 
-}
+} */
 
 .fonte_Promoçôes{
 
   color: #ffffff;
-  margin-right: 20%;
-  font-size: 50px
+
+  font-size: 30px
   
 
 
@@ -114,3 +129,4 @@ html, body, #root {
 
 
 }
+

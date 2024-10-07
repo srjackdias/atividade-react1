@@ -1,5 +1,5 @@
 
-import Hearder from '../components/Header'
+import Hearder from '../Components/Header'
 import Conteudo from '../Conteudo'
 
 function Home() {
