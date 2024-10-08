@@ -4,7 +4,8 @@ import Senhas from "../Pages/Senhas";
 
 import Fofoca from "../Pages/Fofoca"; // Verifique o caminho
 import Conteudo from "../Conteudo";
-import Header from "../Components/Header"; // Certifique-se de que a letra maiúscula está correta
+
+import Header from "../Components/Header";
 
 const router = createBrowserRouter([
     { path: "/", element: <Conteudo /> },

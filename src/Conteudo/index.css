@@ -1,5 +1,5 @@
 html, body, #root {
-  height: 69%;
+  height: 71%;
 background-color: white;  
 }
 
@@ -12,6 +12,7 @@ background-color: white;
 
 .conteudo-row {
   display: flex;
+  flex-wrap: wrap;
  
 }
 
@@ -23,7 +24,6 @@ background-color: white;
   align-items: center;
   justify-content: center;
   border-radius: 18px;
-  border-top-right-radius: solid 20px black;
 
 }
 
@@ -34,27 +34,36 @@ background-color: white;
   display: flex;
   align-items: flex-end; 
   justify-content: center; 
-  border-top-left-radius: solid 20px black;
   
 }
 
 .ConteudoTres {
   background-color:#ef97a4;;
-  width: 100%;
-  height:90% ;
+  width: 50%;
+  height:94% ;
   display: flex;
-  justify-content:space-around;
+  justify-content:center;
+  flex-direction:column;
   align-items: center;
-  flex-direction: row;
-  padding: 140px;
-  border: solid 5px black;
-  border-radius: 18px;
+  float: right;
 }
-.navbar{
 
-  padding-left: 100px;
+.ConteudoQuadro{
+  background-color: #ef97a4; /* Adicionei uma cor para diferenciar */
+  width: 50%; /* Ajusta a largura da div ConteudoQuadro */
+  height: 94%; /* Mantém o mesmo tamanho da div ConteudoTres */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 20px;
+float: left;
+}
 
 
+.navbar {
+  color: white;
+  width: 100%;  /* Deixe ele ocupar toda a largura disponível */
 }
 
 
