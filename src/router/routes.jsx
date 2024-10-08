@@ -6,7 +6,6 @@ import Fofoca from "../Pages/Fofoca"; // Verifique o caminho
 import Conteudo from "../Conteudo";
 
 import Header from "../Components/Header";
-
 const router = createBrowserRouter([
     { path: "/", element: <Conteudo /> },
     { path: "/header", element: <Header /> }, // Ajuste de rota para Header
